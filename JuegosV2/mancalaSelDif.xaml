@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="JuegosV2.mancalaSelDif"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JuegosV2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Easy" Content="Easy" Grid.Column="1" HorizontalAlignment="Left" Margin="285,153,0,0" VerticalAlignment="Top" Click="Easy_Click"/>
+        <Button x:Name="Medium" Content="Medium" Grid.Column="1" HorizontalAlignment="Left" Margin="289,133,0,0" VerticalAlignment="Top" Grid.Row="1" Click="Medium_Click"/>
+        <Button x:Name="Hard" Content="Hard" Grid.Column="1" HorizontalAlignment="Left" Margin="285,132,0,0" VerticalAlignment="Top" Grid.Row="2"/>
+        <Button x:Name="Volver" Content="Volver" Grid.Column="1" HorizontalAlignment="Left" Margin="285,160,0,0" VerticalAlignment="Top" Grid.Row="3" Click="Volver_Click"/>
+
+    </Grid>
+</Page>

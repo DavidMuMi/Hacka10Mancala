@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="JuegosV2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JuegosV2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' x:Name="Mancala" Content="Mancala" HorizontalAlignment="Left" Margin="152,193,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.107,-0.671"                      />
+        <Button x:ConnectionId='2' x:Name="Salir" Content="Salir" HorizontalAlignment="Left" Margin="152,404,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.107,-0.671"                          />
+
+    </Grid>
+</Page>
+

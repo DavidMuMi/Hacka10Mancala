@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="JuegosV2.Mancala_Intro"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JuegosV2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="dos_jugadores" Content="2 Jugadores" HorizontalAlignment="Left" Margin="145,166,0,0" VerticalAlignment="Top" Click="dos_jugadores_Click"/>
+        <Button x:Name="volver" Content="Volver" HorizontalAlignment="Left" Margin="159,361,0,0" VerticalAlignment="Top" Click="volver_Click" RenderTransformOrigin="0.5,0.5">
+            
+        </Button>
+        <Button x:Name="un_jugador_Copy" Content="1 Jugador" HorizontalAlignment="Left" Margin="159,43,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.082,0.741" Click="un_jugador_Copy_Click"/>
+        <Button x:Name="dos_jug_api" Content="dos_jug_api" HorizontalAlignment="Left" Margin="159,263.784,0,0" VerticalAlignment="Top" Click="dos_jug_api_Click" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            
+        </Button>
+
+    </Grid>
+</Page>
